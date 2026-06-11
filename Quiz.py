@@ -20,4 +20,14 @@ x = input()
 if x.lower() == "c": print("Japp de där är korrekt")
 else: print("Nope C, Antarktis")
 
+#Något är fel med def
+def quiz(frågan , rätt_svar):
+    print(frågan)
+    x = input()
+    if x.lower() == rätt_svar.lower():
+        print("Rätt!")
+    else: 
+        print("Nope, Fel")
+
 #Fråga 3
+quiz ("Är Monaco värdens minsta land?:","Nej")
